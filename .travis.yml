@@ -8,3 +8,10 @@ deploy:
   app: blooming-tor-11219
   on:
     repo: xiaoma27/projet
+    
+addons:
+  code_climate:
+    repo_token: <token>
+# regular test configuration
+after_success:
+  - bundle exec codeclimate-test-reporter
