@@ -1,4 +1,4 @@
-![travis](https://travis-ci.org/xiaoma27/projet)
+![travis](https://travis-ci.org/xiaoma27/projet.svg?branch=master)
 # projet
 Projet de l'annee
 
