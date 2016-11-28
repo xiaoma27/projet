@@ -16,9 +16,9 @@
         <td><%= student.name %></td>
         <td><%= student.surname %></td>
         <td><%= student.birthday %></td>
-        <td><button type="button" class="btn btn-warning"><%= link_to 'Show', student %></td>
+        <td><button type="button" class="btn btn-default"><%= link_to 'Show', student %></td>
         <td><button type="button" class="btn btn-warning"><%= link_to 'Edit', edit_student_path(student) %></td>
-        <td><button type="button" class="btn btn-warning"><%= link_to 'Destroy', student, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><button type="button" class="btn btn-danger"><%= link_to 'Destroy', student, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
