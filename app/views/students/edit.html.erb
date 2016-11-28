@@ -1,8 +1,8 @@
 <h1>Editing student</h1>
 
-<%= render 'form' %>
-
 <div class="btn-defaut">
-  <button type="button" class="btn btn-info"><%= link_to 'Back', students_path %></button>
-  <button type="button" class="btn btn-info"><%= link_to 'Show', @student %></button>
+<%= render 'form' %>
 </div>
+ <%= link_to 'Back', students_path,class:"btn btn-info" %>
+ <%= link_to 'Show', @student,class:"btn btn-info" %>
+

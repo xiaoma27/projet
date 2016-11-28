@@ -37,6 +37,12 @@ group :test do
   gem "codeclimate-test-reporter", "~> 1.0.0"
 end
 
+# Use SCSS for stylesheets
+gem 'bootstrap-sass', '~>3.3.6'
+gem 'sass-rails', '>=3.2'
+
+
+
 # geocoding 
 gem 'nominatim', '~> 0.0.5'
 
