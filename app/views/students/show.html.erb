@@ -19,6 +19,7 @@
   <strong>major:</strong>
   <%= @student.major? %>
 </p>
-
-<%= link_to 'Edit', edit_student_path(@student) %> |
-<%= link_to 'Back', students_path %>
+<div class="btn-defaut">
+  <button type="button" class="btn btn-danger"><%= link_to 'Back', students_path %></button>
+  <button type="button" class="btn btn-danger"><%= link_to 'Edit', edit_student_path(@student) %></button>
+</div>
