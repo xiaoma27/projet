@@ -9,7 +9,8 @@ deploy:
   on:
     repo: xiaoma27/projet
 addons:
-  code_climate:
-    repo_token: "<token>"
+code_climate:
+    repo_token: <token>
+# regular test configuration
 after_success:
-- bundle exec codeclimate-test-reporter
+  - bundle exec codeclimate-test-reporter
