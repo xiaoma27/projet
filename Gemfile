@@ -36,6 +36,8 @@ group :test do
   gem "simplecov"
   gem "codeclimate-test-reporter", "~> 1.0.0"
 end
+# 
+gem 'omniauth-github', '~> 1.1', '>= 1.1.2'
 
 # geocoding 
 gem 'nominatim', '~> 0.0.5'

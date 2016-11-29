@@ -5,11 +5,11 @@ deploy:
   provider: heroku
   api_key:
     secure: l1PX7UVxGEfFkGxQ8wNSDDfvBGI51vTSQ+l1ITQy2ejb383sCLZJiJp0XOyb47aEBsxwi7LrfhYE1a7fDXu6nVfXq+l6cwIGTl38GUqAcGcY2PiK8xK2xVRvH4SutGnWq8/YTzxjzpAbH0TCMg8MpNxP0beu5KVIxU9al9yKJGJzl2fXHKxSHz7Ibkd7kuZfi4bkSdB4Pqu3XsaHnQO1wFVMp6mX9P0Z+zUKgE2ZZz3zl6S9BiyUJoMWuFs3rJ3qKrVBDNzbUJLKY0gS0Rn6Z2NO/fDUda5EIv4no0HQt5BiJJrFj783La1I5bN3dgXjdOtdSN3I9gCYLLGyVqjUpEWdXygcr4zCvM/zQ5l1cqAOLSNJLmKiDGJsoyOohSp2wTQZ9Mg1gxMSs8Ivf/LvOhV1iElwb12cekYGnXqpfRAsuzvUHAaAbV7Ekurr0+fPeIVQ1QMN759RBmjM6a5p+lrj1ar8riqRDhc8w4GBYj3trpBqUGtSrp6ZfIWkMljTic/Fy5t9q4ceEdWRGbxPSbquPbSyVS1UnGMWqUKd7t7XZgojq2pMLOW/4wBngB8JwRly5oBg/dFR69d4XXaNmHjQXoHzZ9ORMYVUbFsqpomUmlY07kFO6mxg+PaaBZdB6UPy9Pl6/vSngToA8GwBTKho+lFpypqVlc7A7FkAO4c=
-  app: tranquil-reaches-63187
+  app: agile-chamber-99253
   on:
     repo: xiaoma27/projet
 addons:
-code_climate:
+    code_climate:
     repo_token: <token>
 # regular test configuration
 after_success:
